@@ -12,7 +12,7 @@ public class Deposit extends Basetest {
 			driver.findElement(By.xpath("//*[@name=\"accountno\"]")).sendKeys(deposit.accid);
 			System.out.println("entered account number = "+deposit.accid);
 			driver.findElement(By.xpath("//*[@name=\"ammount\"]")).sendKeys("1500");
-			driver.findElement(By.xpath("//*[@name=\"desc\"]")).sendKeys("self deposit");
+			driver.findElement(By.xpath("//*[@name=\"desc\"]")).sendKeys("self");
 			driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 //			driver.findElement(By.xpath("//*[contains(text(),\"Home\")]")).click();
 //			driver.findElement(By.xpath("//*[contains(text(),\"Log out\")]")).click();

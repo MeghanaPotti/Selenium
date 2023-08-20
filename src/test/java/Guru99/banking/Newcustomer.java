@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class Newcustomer extends Basetest {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		try {
       Newcustomer nc = new Newcustomer();
       nc.login();
